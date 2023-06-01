@@ -1,6 +1,5 @@
 "use client"
 import React from 'react'
-import { useEffect } from 'react'
 import style from "./about.module.css"
 import Lable from './components/Lable/lable'
 import EducationCard from './components/education/EducationCard'
@@ -16,20 +15,16 @@ export default function Comp() {
       <>
     <div className={style.AboutBox}>
 
-      {/* Card */}
       <div className={style.box}>
 
-        {/* Lable */}
       <Lable width="100px" lable="About"/>
 
       <p className={style.about}>
       Hi, I'm <b>Utkarsh Verma</b>, a Web Developer with expertise in React and Node.js. I'm passionate about creating beautiful and functional websites that deliver a great user experience. I have experience in developing web applications using React, Node.js, and other popular frameworks and libraries. I enjoy staying up-to-date with the latest web technologies and applying them to create innovative solutions for clients.
       </p>
       </div>
-    {/* Card End */}
 
 
-      {/* Card */}
       <div className={style.box}>
       {/* Lable */}
       <Lable width="100px" lable="Education"/>  
@@ -42,14 +37,11 @@ export default function Comp() {
         />
       </p>
       </div>
-    {/* Card End */}
 
 
 
-     {/* Card */}
      <div className={style.box}>
       
-      {/* Lable */}
      <Lable width="220px" lable="Courses & Certification"/>
 
 
@@ -74,7 +66,6 @@ export default function Comp() {
         />
       </p>
       </div>
-    {/* Card End */}
 
     </div>
     </>

@@ -9,7 +9,7 @@ export default function Home() {
 <div className="main">
 
 <div className={style.CDR}>
-    <img src={profilepic} alt="profileimg"/>
+    <Image width="200" height="200" src={profilepic} alt="profileimg"/>
 
 </div>
 
