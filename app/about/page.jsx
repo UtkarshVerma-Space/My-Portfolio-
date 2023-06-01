@@ -20,7 +20,7 @@ export default function Comp() {
       <Lable width="100px" lable="About"/>
 
       <p className={style.about}>
-      Hi, I'm <b>Utkarsh Verma</b>, a Web Developer with expertise in React and Node.js. I'm passionate about creating beautiful and functional websites that deliver a great user experience. I have experience in developing web applications using React, Node.js, and other popular frameworks and libraries. I enjoy staying up-to-date with the latest web technologies and applying them to create innovative solutions for clients.
+      Hi, I am <b>Utkarsh Verma</b>, a Web Developer with expertise in React and Node.js. I am passionate about creating beautiful and functional websites that deliver a great user experience. I have experience in developing web applications using React, Node.js, and other popular frameworks and libraries. I enjoy staying up-to-date with the latest web technologies and applying them to create innovative solutions for clients.
       </p>
       </div>
 
