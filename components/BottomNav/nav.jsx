@@ -35,7 +35,7 @@ export default function Nav() {
                 🖥️
                 </Link>
                 {/* Text Under Icon */}
-            <p className={style.optionsubhead}>Skills</p>
+            <p className={style.optionsubhead}>Freelance</p>
             </div>
             
         </div>
