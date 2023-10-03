@@ -23,11 +23,12 @@ export default function RootLayout({ children}) {
 
 
     <html lang="en">
+
       <body className={inter.className}>
       <NextTopLoader
       
-      color='red'
-      height={4}
+      // color='red'
+      // height={4}
       />
         {children}
       {/*Nav Bar On Bottom  */}
