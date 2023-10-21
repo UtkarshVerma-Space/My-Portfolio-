@@ -8,7 +8,6 @@ import EducationCard from './components/education/EducationCard'
 
 
 
-
 export default function Comp() {
 
     return (
