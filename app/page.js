@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import profilepicture from "../assets/img.jpg"
-
+import { motion } from 'framer-motion'
 import style from './page.module.css'
 export default function Home() {
   return (
@@ -13,10 +13,15 @@ export default function Home() {
 
 <div className="main">
 
-<div className={style.CDR}>
+<motion.div 
+
+initial={{opacity:"0.01"}}
+animate={{opacity:"1"}}
+
+className={style.CDR}>
     <Image width="200" height="200" src={profilepicture} alt="profileimg"/>
 
-</div>
+</motion.div>
 
 
 

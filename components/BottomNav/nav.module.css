@@ -43,3 +43,13 @@ border-radius: 24px;
     font-size: 9px;
     margin-top: 3.5px;
 }
+
+.homeimage{
+    height: 30px;
+    width: 30px;
+    margin-bottom: -5px;
+}
+.homeimage:hover{
+    height: 35px;
+    width: 35px;
+}

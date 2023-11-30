@@ -1,10 +1,12 @@
 import { useEffect } from "react"
 import style from "./eduCard.module.css"
+import { motion } from "framer-motion"
 export default function EducationCard(props) {
    return (
      <>
 
-    <div className={style.ed}>
+    <motion.div 
+    className={style.ed}>
 
     <h1>{props.InstituteName}</h1>
         <p>{props.CorseName}</p>
@@ -14,7 +16,7 @@ export default function EducationCard(props) {
         <div className={style.hr}>
 
         </div>
-    </div>
+    </motion.div>
         </>
   )
 }
