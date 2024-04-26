@@ -51,7 +51,8 @@ span{
     justify-content: center;
 } 
 #content h1{
-    font-family: "Roboto Condensed", sans-serif;
+    /* font-family: "Roboto Condensed", sans-serif; */
+    font-family: 'Gilroy-Bold';
     position: relative;
     left: 50%;
     top: 30%;

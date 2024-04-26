@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html  lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,11 +16,15 @@
     rel="stylesheet"
     
 />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
 
+<link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+
+<script src="project.js"></script>
 
 
 </head>
-<body>
+<body style="background-color: black;">
     <div id="main">
         <div id="nav">
             <a href="/">
@@ -34,13 +38,18 @@
                 Resume</div>
         </div>
 
+
         <div id="projects">
-            <div id="card">
-                <div id="section1">CHAT GPT REMADE</div>
-                <div id="section2">This is the new CHAT GPT APP. Here I am merging the power of CHAT GPT with VOICE [Text to speech and speech to text]. Use Your own api Key to use the app.</div>
+            <div class=".hover-target" id="card">
+                <img class="img " src="bg.jpg" alt="">
+                <div id="section1">Link | URL shortener</div>
+                <div id="section2">URL shortener application designed to simplify the sharing and management of long URLs. Built using MongoDB, Express.js, EJS, and Node.js (MEEN stack), Shorty offers a fast, efficient, and user-friendly way to generate shortened URLs for any long link.</div>
                 <div id="section3">
                     <i class="ri-nodejs-line"></i>
                     <i class="ri-javascript-fill"></i>
+                    <a id="links" href="https://github.com/UtkarshVerma-Space/tinymeurl" target="_blank">
+                        <i class="ri-link-m"></i>
+                    </a>
                 </div>
                 <div id="section4">January 8, 2023</div>
             </div>
@@ -48,13 +57,48 @@
 
 
 
+        <div id="projects">
+            <div class=".hover-target" id="card">
+                <img class="img " src="bg.jpg" alt="">
+                <div id="section1">CHAT GPT REMADE</div>
+                <div id="section2">This is the new CHAT GPT APP. Here I am merging the power of CHAT GPT with VOICE [Text to speech and speech to text]. Use Your own api Key to use the app.</div>
+                <div id="section3">
+                    <i class="ri-nodejs-line"></i>
+                    <i class="ri-javascript-fill"></i>
+                    <a id="links" href="https://github.com/UtkarshVerma-Space/CHAT-GPT-Remade" target="_blank">
+                        <i class="ri-link-m"></i>
+                    </a>
+                </div>
+                <div id="section4">January 8, 2023</div>
+            </div>
+        </div>
+
+
+
+
+   
+
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
 
 
+  <!-- SheyJS Essestials -->
+    <!--  Gsap is needed for Basic Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
-
-
-
+    <!-- Scroll Trigger is needed for Scroll Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- Three.js is needed for 3d Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    
+    <!-- ControlKit is needed for Debug Panel -->
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script> <!-- Recommended -->
+    
+        <!-- SheyJS Essestials -->
+    
 
 
 </body>
