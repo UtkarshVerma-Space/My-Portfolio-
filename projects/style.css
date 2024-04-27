@@ -24,6 +24,9 @@ html, body{
     font-family: 'Gilroy-Regular', sans-serif;
 
 }
+
+
+
 /* Navagation Bar Bottom */
 /* Navagation Bar Bottom */
 #nav{
@@ -41,6 +44,7 @@ html, body{
     color: black;
 }
 #nav div{
+    font-size: 15px;
     margin: 10px;
     padding: 10px;
     background-color: aliceblue;

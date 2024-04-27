@@ -21,6 +21,10 @@
 
 <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
 </head>
+
+
+<div class="container">
+
 <body style="background-color: black;">
     <div id="main">
         
@@ -58,10 +62,10 @@
                     <div  class="Specs1" id="webDeb">WEB <br> DEVE <br>LOPE <br>R</div>
                 </div>
             </div>
-            <div id="Specs">
+            <!-- <div id="Specs">
                 <div data-scroll data-scroll-speed="6" data-scroll-direction="horizontal" class="Specs2" id="webDeb">FRONTEND</div>
                 <div data-scroll data-scroll-speed="-6" data-scroll-direction="horizontal" class="Specs3" id="webDeb">BACKEND</div>
-            </div>
+            </div> -->
 
 
         </div>
@@ -71,13 +75,16 @@
 
 
 <div id="abt">
-    <h1 >ABOUT</h1>
-    <p>
+    <h1 class="appearOnScroll">ABOUT</h1>
+    <p class=".text-target">
         A web developer with expertise in React and Node.js.
     </p>
     <p>I'm really good at making websites using REACT and NODE JS || love making websites that look nice and work well for users. I've made lots of web apps using React, Node.js, and other cool tools.</p>
     <p>In addition to web development, I also have a strong interest in 3D modeling and animation using Blender. I find it to be a great creative outlet that complements my technical skills as a web developer.</p>
 </div>
+
+
+
 
 
 
@@ -94,15 +101,13 @@
     <i class="ri-firebase-fill"></i>
     </div>
 </div>
-<a href="/projects/project.html">
 
-    <div class="projects">
-        <h2 class="BUTTON">VIEW MY PROJECTS
-            <i class="ri-arrow-right-line"></i>
-        </h2>
-        
-    </div>
-</a>
+
+<div id="projects">
+    <a href="./projects/project.html">
+        <img id="img" src="./assets/images/proj.png" alt="">
+    </a>
+</div>
 
   
    <div id="abt">
@@ -154,6 +159,9 @@
     <!-- SheyJS Essestials -->
 
 
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script src="script.js"></script>
 
