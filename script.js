@@ -217,7 +217,6 @@ gsap.to("#projects  #img", {
         trigger:"#projects",
         scrub:true,
         start:"end 100%",
-        markers:true,
         start:"end 300%%"
     }
 })
