@@ -14,6 +14,9 @@ html, body{
     margin: 0;
     background-color: rgb(0, 0, 0);
 }
+body{
+    overflow-x: hidden;
+}
 .container {
     width: 100%;
     height: 100%;
@@ -185,42 +188,86 @@ color: white;
 
 
 
+#skills{
+    height: 100vh;
+    width: 100%;
+    /* background-color: #d8534c; */
+    /* margin-top: 150px; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    top: 0;
+}
+#skills-desktop{
+    display: none;
+}
 
+#skills .skill{
+    position: absolute;
+}
+
+#skills #mongo{
+    left: 10%;
+}
+
+#skills #express{
+    left: 60%;
+    margin-top: 300px;
+    height: 130px;
+}
+#skills #react{
+    left: 5%;
+    margin-top: 490px;
+    height: 180px;
+}
+#skills #node{
+    left: 60%;
+    margin-top: 690px;
+    height: 130px;
+}
+
+
+#label{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 20%;
+    background-color: rgba(255, 255, 255, 0.733);
+    width: 90%;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 210px 0px 210px 0px;
+}
+#skills-desktop #label{
+    top: -100%;
+    font-size: 50px;
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 128, 0);
+}
+
+
+@media screen and (min-width: 819px) {
+    #skills{
+   display: none;
+    }
+    #skills-desktop{
+        margin-top: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    
+}
 
 
 
 #webDeb{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-
-#skills{
-    overflow: hidden;
-    margin-top: 100px;
-    margin-bottom: 200px;
-}
-
-#skills h1{
-    margin-bottom: 12PX;
-    text-align: center;
-    font-size: 5vh;
-    color: rgba(240, 248, 255, 0.966);
-
-}
-
-#skills .tools{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-#skills .tools i{
-    font-size: 100px;
-    color: rgba(240, 248, 255, 0.938);
-}
-
-
 
 
 
@@ -291,13 +338,54 @@ a{
     color: #f0f8ff;
 }
 
-
-
+#anim{
+    color: wheat;
+}
 
 
 #projects {
     text-align: center;
 }
 #projects img{
+    margin-top: 300px;
     height: 180px;
+}
+
+
+
+
+#knowledge{
+    margin-top: 100px;
+    color: white;
+}
+
+
+
+
+
+#knowledge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+}
+#knowledge img{
+    object-fit: cover;
+    height: 500px;
+}
+
+
+
+@media screen and (min-width: 819px) {
+    #knowledge{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #knowledge img{
+        object-fit: cover;
+        height: 700px;
+    }
+    
 }
