@@ -44,7 +44,8 @@ gsap.from("#abt h1", {
         trigger: "#abt", // Define the trigger element
         start: "top 90%", // Trigger animation when the element is 80% from the top of the viewport
         scroller:"body",
-        scrub:2
+        scrub:2,
+
     }
 });
 
@@ -55,7 +56,7 @@ gsap.from("#abt p", {
         trigger: "#abt", // Define the trigger element
         start: "top 50%", // Trigger animation when the element is 80% from the top of the viewport
         scroller:"body",
-        scrub:2
+        scrub:2,
     }
 });
 
@@ -65,111 +66,6 @@ gsap.from("#abt p", {
 
 
 
-
-
-
-// skills
-gsap.from("#skills #label", {
-    y: 55,
-    opacity: 0,
-    scrollTrigger: {
-        trigger:"#skills",
-        scrub:true,
-        start:"top 10%",
-        pin:true
-    }
-});
-gsap.from("#skills #mongo", {
-    y: 55,
-    opacity: 0,
-    scrollTrigger: {
-        trigger:"#skills",
-        scrub:true,
-        start:"top 10%",
-    }
-});
-
-gsap.from("#skills #express", {
-    y: 55,
-    opacity: 0,
-    scrollTrigger: {
-        trigger:"#skills",
-        scrub:true,
-        start:"top 10%"
-    }
-});
-gsap.from("#skills #react", {
-    y: 55,
-    opacity: 0,
-    scrollTrigger: {
-        trigger:"#skills",
-        scrub:true,
-        start:"top 10%"
-    }
-});
-gsap.from("#skills #node", {
-    y: 55,
-    opacity: 0,
-    scrollTrigger: {
-        trigger:"#skills",
-        scrub:true,
-        start:"top 10%"
-    }
-});
-
-
-
-
-
-// skills Desktop
-gsap.from("#skills-desktop #label", {
-    y: 105,
-    opacity: 0,
-    scrollTrigger: {
-        trigger:"#skills-desktop",
-        scrub:true,
-        start:"top 100%",
-        pin:true
-    }
-});
-gsap.from("#skills-desktop #mongo", {
-    y: 455,
-    opacity: 0,
-    scrollTrigger: {
-        trigger:"#skills-desktop",
-        scrub:true,
-        start:"top 80%",
-    }
-});
-
-gsap.from("#skills-desktop #express", {
-    y: 155,
-    opacity: 0,
-    scrollTrigger: {
-        trigger:"#skills-desktop",
-        scrub:true,
-        start:"top 80%"
-    }
-});
-gsap.from("#skills-desktop #react", {
-    y: 155,
-    opacity: 0,
-    scrollTrigger: {
-        trigger:"#skills-desktop",
-        scrub:true,
-        start:"top 80%"
-    }
-});
-gsap.from("#skills-desktop #node", {
-    y: 55,
-    opacity: 0,
-    scrollTrigger: {
-        trigger:"#skills-desktop #node",
-        scrub:true,
-        start:"top 80%",
-
-    }
-});
 
 
 
@@ -177,26 +73,36 @@ gsap.from("#skills-desktop #node", {
 
 
 gsap.from("#knowledge  #frontend", {
-    y:100,
+    y:200,
     opacity:0.5,
-    marginTop:"500px",
+    marginTop:"50px",
     scrollTrigger: {
         trigger:"#knowledge",
         scrub:1,
         start:"top 10%",
+        pin:true
     }
 })
 
 gsap.from("#knowledge  #backend", {
     y:100,
     opacity:0,
-    marginTop:"500px",
+    marginTop:"50px",
     scrollTrigger: {
         trigger:"#frontend",
         scrub:1,
     }
 })
 
+gsap.from("#knowledge  #database", {
+    y:100,
+    opacity:0,
+    marginTop:"50px",
+    scrollTrigger: {
+        trigger:"#frontend",
+        scrub:1,
+    }
+})
 
 
 

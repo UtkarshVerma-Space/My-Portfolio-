@@ -23,7 +23,23 @@
 </head>
 
 
+
+
+
+
+<div id="loading">
+    
+<div class="loader"></div>
+</div>
+
 <div class="container">
+
+
+
+
+
+
+
 
 <body style="background-color: black;">
     <div id="main">
@@ -94,7 +110,6 @@
 
 <div id="skills-desktop">
     <div id="label">MERN STACK  | SKILLS</div>
-    
     <img id="mongo" src="./assets/images/m.png" alt="" class="skill">
     <img id="express" src="./assets/images/e.png" alt="" class="skill">
     <img id="react" src="./assets/images/r.png" alt="" class="skill">
@@ -108,7 +123,9 @@
     <div id="backdiv">
         <img id="backend" src="./assets/images/BACK.png" alt="">
     </div>
-
+    <div id="backdiv">
+        <img id="database" src="./assets/images/data.png" alt="">
+    </div>
 
 </div>
 
@@ -188,6 +205,14 @@
     <script src="script.js"></script>
 
 
-
+    <script>
+        // Wait for all assets to load
+        window.onload = function() {
+          // Remove the loading overlay
+          var loadingOverlay = document.getElementById('loading');
+          loadingOverlay.style.display="none";
+    
+        };
+      </script>
 </body>
 </html>
