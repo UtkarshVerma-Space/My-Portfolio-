@@ -3,216 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio / Utkarsh Verma</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portfoli / Home</title>
+    <!-- Global Css from globalStyle.css -->
+    <link rel="stylesheet" href="globalStyle.css">
 
+    <!-- nav.css -->
+    <link rel="stylesheet" href="./css/nav.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- hero.css -->
+    <link rel="stylesheet" href="./css/hero.css">
 
-    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
-                
+<link rel="stylesheet" href="./loading.css">
+    <!-- Remix Icon -->
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
     rel="stylesheet"
 />
 
+    <!-- Googlr Font -->
+    <!-- font-family: "Open Sans", sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-
-<link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
 </head>
+<body>
 
 
 
-
-
-
-<div id="loading">
-    
-<div class="loader"></div>
-</div>
-
-<div class="container">
-
-
-
-
-
-
-
-
-<body style="background-color: black;">
-    <div id="main">
-        
-    
-        <div class="hover-target"  id="content">
-            <h1 >
-                <span data-scroll data-scroll-speed="-2" >I'm</span>
-                <span data-scroll data-scroll-speed="-3" >
-                    UTKARSH
-                </span>
-                <span data-scroll data-scroll-speed="">VERMA</span>
-
-            </h1>
-            <span onclick="scrolll()" id="js-target">
-
-                <span id="scroll" style="color: white;"><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player id="scrollAnim"  src="https://lottie.host/254a28d5-f061-4ab3-973e-0ff548b579f1/asBsla5J15.json" background="##FFFFFF" speed="1" style="width: 300px; height: 300px" loop autoplay direction="1" mode="normal"></lottie-player></span>
-            </span>
-            </div>
-            
-
-        <div id="HorizontalScroll">
-            <div id="wrapper">
-
-                <div class="BigLogo">
-                    <div  class="Specs1" id="webDeb">
-
-                            WEB 
-                        <br> 
-                        DEVE 
-                        <br>
-                        LOPE 
-                        <br>
-                        R
-                    </div>
-                    <div  class="Specs1" id="webDeb">WEB <br> DEVE <br>LOPE <br>R</div>
-                </div>
-            </div>
-            <!-- <div id="Specs">
-                <div data-scroll data-scroll-speed="6" data-scroll-direction="horizontal" class="Specs2" id="webDeb">FRONTEND</div>
-                <div data-scroll data-scroll-speed="-6" data-scroll-direction="horizontal" class="Specs3" id="webDeb">BACKEND</div>
-            </div> -->
-
-
+<!-- Loading Overlay -->
+    <div id="LoadingsCREEN">
+        <span>LO</span>
+        <div class="loader">
+            <svg viewBox="0 0 80 80">
+                <circle id="test" cx="40" cy="40" r="32"></circle>
+            </svg>
         </div>
+        <span>AD</span>
 
+        <div class="loader triangle">
+            <svg viewBox="0 0 86 80">
+                <polygon points="43 8 79 72 7 72"></polygon>
+            </svg>
+        </div>
+        <span>IN</span>
 
+        <div class="loader">
+            <svg viewBox="0 0 80 80">
+                <rect x="8" y="8" width="64" height="64"></rect>
+            </svg>
+        </div>
+        <span>G</span>
 
-
-
-<div id="abt">
-    <h1 class="appearOnScroll">ABOUT</h1>
-    <p class=".text-target">
-        A web developer with expertise in React and Node.js.
-    </p>
-    <p>I'm really good at making websites using REACT and NODE JS || love making websites that look nice and work well for users. I've made lots of web apps using React, Node.js, and other cool tools.</p>
-    <p>In addition to web development, I also have a strong interest in 3D modeling and animation using Blender. I find it to be a great creative outlet that complements my technical skills as a web developer.</p>
-</div>
-
-
-<div id="skills">
-    <div id="label">MERN STACK  | SKILLS</div>
-    <img id="mongo" src="./assets/images/m.png" alt="" class="skill">
-    <img id="express" src="./assets/images/e.png" alt="" class="skill">
-    <img id="react" src="./assets/images/r.png" alt="" class="skill">
-    <img id="node" src="./assets/images/n.png" alt="" class="skill">
-</div>
-
-<div id="skills-desktop">
-    <div id="label">MERN STACK  | SKILLS</div>
-    <img id="mongo" src="./assets/images/m.png" alt="" class="skill">
-    <img id="express" src="./assets/images/e.png" alt="" class="skill">
-    <img id="react" src="./assets/images/r.png" alt="" class="skill">
-    <img id="node" src="./assets/images/n.png" alt="" class="skill">
-</div>
-
-<div id="knowledge">
-    <div id="frontdiv">
-        <img id="frontend" src="./assets/images/front.png" alt="">
-    </div>
-    <div id="backdiv">
-        <img id="backend" src="./assets/images/BACK.png" alt="">
-    </div>
-    <div id="backdiv">
-        <img id="database" src="./assets/images/data.png" alt="">
     </div>
 
-</div>
+
+
+    <!-- NavBar  >> nav.css -->
+    <nav>
+        <div id="title">FRONTEND <br> BACKEND</div>
+        <div id="navs">
+            <a href="./routes/about.html">
+                <li>About</li>
+            </a>
+            <li>Projects</li>
+            <li>Courses</li>
+        </div>
+    </nav>
 
 
 
+<!-- Hero Container   >> hero.css -->
+    <div id="container">
+        <div id="wrapper">
+            <img id="profileImg" src="./assets/images/profiel.png" alt="">
+            <div id="name">Hey, I'm Utkarsh</div>
+            <p id="about">"Welcome! I'm a seasoned web developer specializing in the MERN stack and Next.js framework. With a passion for crafting efficient, dynamic, and user-friendly web applications, I bring expertise in front-end and back-end development to the table.</p>
 
+            <p id="about-mob">
+                Expert MERN stack and Next.js developer here! Crafting dynamic and efficient web applications is my specialty. Let's bring your digital vision to life together!
+            </p>
 
-<div id="projects">
-    <a href="./projects/project.html">
-        <img id="img" src="./assets/images/proj.png" alt="">
+            <div id="label">Top Skills</div>
+            <p id="skills">Mongo DB | Express JS | React JS | Node JS | Next JS | Git & Github | Sanity</p>
+            <button onclick="displayHelloButt()" id="hellobutoon">Say Hello</button>
 
-    </a>
-</div>
-
-
-
-
-
-
-
-
-
-  
-   <div id="abt">
-    <h1>GET IN TOUCH WITH ME</h1>
-    <p>
-        Phone Number: 7985-748-915
-    </p>
-    <p>
-        <a target="_blank" href="https://www.linkedin.com/in/iamutkarsh-verma/">
-            <i class="ri-linkedin-box-fill"></i>
-        </a>
-
-
-        <a target="_blank" href="https://github.com/UtkarshVerma-Space">
-            <i class="ri-github-fill"></i>
-        </a>
-
-        <a target="_blank" href="https://www.instagram.com/guidingtowards/">
-
-            <i class="ri-instagram-line"></i>
-        </a>
-    </p>
-</div>
-
-
-
-
-
-
-
-
-
-<!-- SheyJS Essestials -->
-    <!--  Gsap is needed for Basic Effects -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    
-    <!-- Scroll Trigger is needed for Scroll Effects -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    
-    <!-- Three.js is needed for 3d Effects -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
-    
-    <!-- ControlKit is needed for Debug Panel -->
-    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
-    
-    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script> <!-- Recommended -->
-    
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
-    <!-- SheyJS Essestials -->
-
-
-    <!-- GSAP -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <script src="script.js"></script>
-
-
+            <div id="hello">
+                <i class="ri-github-fill"></i>
+                <i class="ri-linkedin-box-fill"></i>
+                <i class="ri-instagram-fill"></i>
+                <i class="ri-youtube-fill"></i>
+            </div>
+        </div>
+    </div>
     <script>
+        var helloIcon = document.querySelector('#hello')
+
+        const displayHelloButt = ()=>{
+            helloIcon.style.display="flex"
+        }
+
         // Wait for all assets to load
         window.onload = function() {
           // Remove the loading overlay
-          var loadingOverlay = document.getElementById('loading');
+          var loadingOverlay = document.getElementById('LoadingsCREEN');
           loadingOverlay.style.display="none";
     
         };
-      </script>
+
+
+
+    </script>
 </body>
 </html>
